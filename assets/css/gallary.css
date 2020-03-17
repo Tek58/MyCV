@@ -1,0 +1,20 @@
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.im{
+    width: 30%;
+    height: 400px;
+    margin: 1.57%;
+    
+}
+#catagory1{
+    float: left;   
+}
+#footer{
+    clear: left;
+}
