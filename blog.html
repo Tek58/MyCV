@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taklemariam Alazar / Blog</title>
+    <link rel="shortcut icon" href="./assets/images/T.ico">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <!-- navigation -->
+    <header>
+        <img src="./assets/images/t-transparent-logo-7.png" alt="logo" id="logo">
+        <nav>
+            <ul>
+                <li> <a href="index.html" target="_blank">Home</a> </li>
+                <li> <a href="gallery.html" target="_blank">Gallary</a> </li>
+                <li> <a class="active" href="blog.html" target="_blank">My Blog</a> </li>
+                <li> <a  href="myworks.html" target="_blank">My Works</a> </li>
+                <li> <a href="contact.html" target="_blank">Contact</a> </li>
+                </ul>
+        </nav>
+
+    </header>
+    <div id="container">
+        <!-- 1 post -->
+        <section>
+            <p class="title">The Workings of Browser Zoom Feature</p>
+            <article>
+                <p class="par">I say yes, because in order to achieve responsiveness we have to use them appropriately fitting the situation we need since they differ under circumstances. But I want to see it by considering the browser capabilities of providing zoom feature  </p>
+                <p class="par"> As we all know many people differ from one another in their ability of sight, not everyone can see words and letters clearly from separate distances. That is why many applications and software have zoom features. As millions of people visit the internet daily through the browsers, they are responsible for providing the zoom feature. Here is there I come to my point, to achieve this 
+                    there are certain ways this could be achieved but specifically we will see “%”, “em”, and “rem”. One thing we should keep in mind is that “em” works only with <a href="https://www.hongkiat.com/blog/css-units/ ">relation to the container</a>  or the parent if specified or if not the default browser value. Relative measurement.  </p>
+                <p class="par">  EM: - is the standard unit used in browser styles for measuring font size. It is a <a href="https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/">relative measurement</a>. In CSS “em” refers to the multiplication of the default font size from the device or the document itself. If there is not any font size mentioned 1 em will be equal to the default font size of the browser which is 16px. Elastic width sites use “em” values for everything, which
+                     essentially makes the site zoomable, meaning it will satisfy the browser zoom feature.  </p>
+                <p class="par">  PERCENTAGE: - Is straight forward, which measures relatively to the parent length. Which means if the parent length is 400px the 50% would become 200px. Mostly using percentages for font-sizing is to set a reasonable font size on the body (like “small”) and then using percentage for everything else. This allows us to change the keyword in a single place in order to scale the font 
+                    size on the entire page. The zoom feature does work with the “%” unit set values but not to the best, which means whenever user zoom in or out there will be some errors on the spaces between the words or letter which is caused due to the percentage unit.  </p>
+                <p class="par">  REM: -it is root em. It is equal to the computed value of font-size on the <a href="https://css-tricks.com/css-font-size/">root element</a> root element. This means 1rem equals the font size of the html element (which for most browsers has a default value of 16px). They can also be used to build scalable components. By expressing widths, margins, and padding in rem units, it become possible to create an interface that grows and shrinks in tune 
+                    with the root font size. The browser zoom feature works better on “rem” set values because it depends on the root or default value of font size of the browser, which means when we zoom in or zoom out, we are changing the default value of the browser size and since the “rem” depends on it.  </p>  
+
+            </article>
+            <p class="date">March 15,2020 : 04:42</p>
+        </section>
+        <!-- second post -->
+        <section>
+            <p class="title">Browser's default 16px Vs user input pixels</p>
+            <article>
+                <p class="par">One thing I would like to mention here is that not all browsers have exactly 16px as default value, the thing that make many people think this way is that it is known to be incorporated by many browsers. The 16px as default value shows that this is the preferable minimum value set for fonts is not specified by the person using it or a person developing the site. When coming to pixels,
+                     they are absolute measurement of length, which means they are self-regulating, they do not base their dimension on anything else on the page. They are also based on real-world measurements. And the size of a pixel can vary from device to devise. So, what does this say for us? When ever we put our values in pixel units, we are putting in the number of pixels on the screen that letter
+                      or image should occupy. This is the way the <a href="https://www.webfx.com/blog/web-design/">browser understands</a>  the pixel values we put in. Even if the value is too large or have a high width, the browser will create a horizontal scroll bar for it. Pixels are independent, means they don’t depend on any factor to work.</p>
+                
+                <p>
+                    The relation they have with other relative measuring unit is: 16px = 100% = 12pt = 1rem = 1em and when it comes to the 200px: 200px = 1250% = 150pt = 12.5rem 
+                </p>
+ 
+                    </article>
+            <p class="date">March 16,2020 : 09:22</p>
+        </section>
+        <!-- Third post -->
+        <section>
+            <p class="title">Top CSS3 Features</p>
+            <article>
+                
+                <p>
+                    <ul id="cs">
+                        <li>In addition to the selectors that were available in CSS2, CSS 3 introduces some new selectors. Using these
+                            selectors, we can <a href="https://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use ">choose DOM elements</a> based on their attributes. So, we don't need to specify classes and IDs for every element. Instead, you can utilize the attribute field to style them.</li>
+                        
+                        <li>
+                             The introduction of the border-radius property to create rounded corners was one of the new changes brought with CSS3. 
+                            
+                            <div class="css3"> Example:  
+                                .box{  border: 2px solid orange; border-radius : 25px; width: 100px; padding: 10px; text-align:center; }</div> 
+                        </li>
+                        <li>
+                             Another exciting feature in CSS 3 is the ability to swap out a border with an image. The property border-image allows to specify an image to display instead of a plain solid-colored border. 
+                            
+                                <div class="css3"> Example: 
+                                    #col{ 
+                                         border-image:url(border_image.png) 100 100 100 100 round round; border-width: 10px;  } </div>
+                        </li>
+
+                        <li>
+                             A box shadow is also one of the features pf CSS3, which allows to create a drop shadow for an element. 
+                        <div class="css3"> Example:  
+                            .shadow{  background-color: #EEEEEE; box-shadow:3px 3px 3px 2px #797979; height: 50px; width: 100px; padding: 5px;  } </div>
+                        </li>
+
+                        <li>
+                             The new text-shadow property allows to add drop shadows to the text on a webpage. Prior to CSS 3, this would be done by either using an image or duplicating a text element and then positioning it. 
+                        
+                        <div class="css3"> Example:  
+                                p{ text-shadow: #aaa 2px 2px 2px;  }  </div>
+                        </li>
+
+                        <li>
+                             The RGB property in CSS is used to set colors for different elements. CSS 3 introduces a modification and added opacity manipulation to this property. RGB has been transformed to RGBA (Red Green Blue Alpha channels), which simplifies how you control the opacity of elements. 
+
+                        <div class="css3"> Example:  
+                                p {  background: rgba(217, 127, 185, .5);  }  </div>
+                        </li>
+
+                        <li>
+                             CSS 3 also introduced a property called transform, which enables rotating Web elements on a webpage which can be images and texts with specified degrees. 
+                        sform property</p>
+
+                        <div class="css3"> Example:  
+                                p{  -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg);  }  </div>
+                        </li>
+
+                        <li>
+                             CSS 3 solves the problem of creating column with the multicolumn layout property; all we have to do is specify the number of columns you need and they will be created. 
+                                            <div class="css3"> Example:  
+                                #col{  -moz-column-count:3;-webkit-column-count:3;  } </div>
+                        </li>
+                        <li>
+                             CSS 3 also facilitates embedding any custom font on a webpage. Fonts are dependent on the client system and Web pages can render only fonts that are supported by the browser or the client machine. By using the @font-face property, we can include the font from a remote location and can then use it. 
+                        <div class="css3"> Example:  
+                                @font-face {  src: url("myfont.ttf"); font-family: "myfont_bold";  }  </div>
+                        </li>
+
+                        <li>
+                             Another new and awesome CSS feature is the calc() function. It allows you to do simple arithmetic calculations in CSS. We can use it anywhere a length or a size is required. What is even cooler, is that you can freely mix different units, like percentages and pixels. 
+                        <div class="css3"> Example:  
+                        .container{ 
+
+                            /* Calculate the width */
+                            width: calc(100% - 40px);
+                         }  </div>
+                        </li>
+
+                        <li>
+                             Generated content is a powerful tool in the hands of developers, made available by the ::before and ::after pseudo elements. This feature lets us use less HTML to achieve the same layouts. This is especially beneficial in cases where we need extra box shadows or other visual elements that would require extra spans or divs. In the end, you get a more minimal and semantically correct HTML. 
+                        <div class="css3"> Example: <br>
+                        /* Style the elements (nothing interesting here) */ 
+                        .container{…} 
+                        .elem{…} 
+                        .elem span{…} <br>
+                        /* Selectors for matching the first letter and line: */ 
+                        p::first-letter{…} 
+                        p::first-line{…} <br>
+                        /* Make the first and last elements purple */ 
+                        .elem:first-child,.elem:last-child{…} <br>
+                        /* Make every other element rounded */ 
+                        .elem:nth-child(odd){…} <br>
+                        /* Make the sixth element red */ 
+                        .elem:nth-child(6){…
+                        } <br>
+                        /* Style the element which contains the span */ 
+                        .elem:not(:empty){…} </div>
+                        </li>
+
+                        <li>
+                             CSS3 also gives pseudo elements <a href="http://webreference.com/authoring/css3/index-2.html ">access to counters</a> , which can be incremented with a CSS rule. They can also access attributes from the parent elements that contain them. 
+                        </li>
+
+                        <li>
+                             There is nothing more flashy and full with eye-candy than an impressive 3D CSS demo. Although its utility outside of demos or portfolio sites is questionable, 3D CSS offers some powerful features to designers and developers that can win the hearts of users if done with good measure. 
+                        </li>
+
+                        <li>
+                             Multiple backgrounds is also one of the new features of CSS3, with this, designers can achieve very interesting effects. They can stack different images as backgrounds of the same element. Each image (or layer) can be moved and animated independently. 
+                        </li>
+                    </ul>
+
+                </p>
+                             
+            </article>
+            <p class="date">March 16,2020 : 06:25</p>
+        </section>
+    </div>
+    <div id="footer">
+        <a class="foo" href="https://www.facebook.com/taklealazar.w" target="_blanck" ><i class="fab fa-facebook-f">Facebook</i> </a>
+        <a class="foo" href="https://web.telegram.org/#/im?p=@Valarmarguliis" target="_blanck"><i class="fab fa-telegram-plane">Telegram</i> </a>
+        <a class="foo" href="https://www.instagram.com/tekalex58/?hl=en" target="_blanck"><i class="fab fa-instagram"></i>Instagram</a>
+        <a class="foo" href="https://www.youtube.com/channel/UCvllXwBPbL14dVanz86UXmw?view_as=subscriber" target="_blanck"><i class="fab fa-youtube">YouTube</i> </a>
+
+        <p class="footer1">&copyCopyright Taklemariam Alazar AAIT</p>
+ </div>
+</body>
+</html>

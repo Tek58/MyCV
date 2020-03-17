@@ -1,0 +1,22 @@
+section{
+    justify-content: center;
+}
+.title{
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-style: italic;
+}
+div > ul > li{
+    padding-bottom: 30px;
+    padding-left: 15px;
+    display: table;
+    font-size: 20px;
+}
+#que{
+    padding-bottom: 50px;
+}
+p{
+    font-size: 25px;
+    padding-bottom: 30px;
+}

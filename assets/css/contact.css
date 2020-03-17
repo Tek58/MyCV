@@ -1,0 +1,53 @@
+#pro_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 15px;
+    float: left;
+}
+h1,h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+#discription{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 15px;
+    padding-left: 10px;
+    
+}
+#line{
+    clear: left;
+    border-top: solid 5px white;
+    margin: 15px;
+}
+#content{
+    display: flex;
+    flex-direction: row; 
+    
+}
+#mapp{
+    margin-left: 30px;
+    margin-right: 150px;   
+    margin-top: 20px;
+}
+#formm{
+    font-size: 20px;
+}
+input{
+    border: solid 2px rgba(231, 230, 219, 0.541);
+}
+.for{
+    margin: 15px;
+}
+input[type=submit]{
+    background-color: rgb(35, 193, 204);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    width: 100px;
+    height: 50px;
+    color: white;
+}

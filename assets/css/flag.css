@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Flags of GABON,RUSSIA AND MAURITIUS*/
+#container, #container1, #container2, #container3, #containerA{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+.side{
+    margin-right: 40px;
+    width: 450px;
+    height: 100px;
+    border: 1px solid rgb(66, 64, 64);
+    background: #eee;
+}
+#container > #f2 > .side4{
+    margin-right: 50px;
+    width: 450px;
+    height: 75px;
+    border: 1px solid rgb(66, 64, 64);
+}
+/* Colors */
+#A, #IJ{
+    background-color: rgb(14, 163, 59);
+}
+#B, #I{
+    background-color: yellow;
+}
+#C, #E, #H{
+    background-color: rgb(38, 95, 219);
+}
+#D{
+    background-color: white;
+}
+#F, #G{
+    background-color: rgb(228, 28, 28);
+}
+/* Austria */
+#K{
+    background-color: rgb(219, 37, 37);
+}
+#L{
+    background-color: white;
+}
+#M{
+    background-color: rgb(212, 31, 31);
+}
+/* Bulgaria */
+#N{
+    background-color: rgb(0, 151, 76);
+    height: 150px;
+}
+#O{
+    background-color: red;
+    height: 150px;
+}
+/* Estonia */
+#Q{
+    background-color: rgb(18, 70, 167);
+}
+#R{
+    background-color: rgba(0, 0, 0, 0.897);
+}
+#S{
+    background-color: white;
+}
+/* Germany */
+#T{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+#U{
+    background-color: red;
+}
+#V{
+    background-color: rgb(238, 205, 20);
+}
+/* Hungary */
+#W{
+    background-color: red;
+}
+#X{
+    background-color: white;
+}
+#Y{
+    background-color: green;
+}
+/* Indonesia */
+#Z{
+    background-color: red;
+    height: 150px;
+}
+#ZZ{
+    background-color: white;
+    height: 150px;
+}
+/* Luxembourg */
+#AA{
+    background-color: red;
+}
+#BB{
+    background-color: white;
+}
+#CC{
+    background-color: rgb(103, 158, 190);
+}
+/* Monaco */
+#DD{
+    background-color: rgb(148, 17, 17);
+    height: 150px;
+}
+#EE{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+}
+/* Netherlands */
+#GG{
+    background-color: rgb(235, 33, 33);
+}
+#HHH{
+    background-color: white;
+}
+#II{
+    background-color: rgb(13, 83, 189);
+}
+
+/* ones with vertical flag colors */
+#CCC{
+    margin-right: 150px;
+}
+#HG, #HI, #HH{
+    border:solid lightslategray 1px;
+}
+#HG, #ir, #ff{
+    height: 300px;
+    width: 150px;
+    background-color: rgb(39, 30, 30);
+    padding-left: 150px;
+}
+#HH, #ir1, #fff{
+    height: 300px;
+    width: 150px;
+    background-color: rgb(230, 176, 59);
+    padding-left: 150px;
+    border-top: none;
+}
+#HI, #ir2, #ffff{
+    border-bottom: none;
+    height: 300px;
+    width: 150px;
+    background-color: rgb(201, 35, 24);
+}
+/* Belgium Color */
+#HG{
+    background-color: rgb(39, 30, 30);
+    padding-left: 150px;
+}
+#HH{
+    background-color: rgb(230, 176, 59);
+}
+#HI{
+    background-color: rgb(201, 35, 24);
+}
+#ver{
+    position: relative;
+    left: 50px;
+}
+/* Ireland color */
+#ir{
+    
+    background-color: rgb(0, 163, 27);
+}
+#ir1{
+    
+    background-color: rgb(255, 255, 255);
+}
+#ir2{
+    background-color: rgb(255, 166, 0);
+}
+#ver1{
+    position: relative;
+    left: 50px;
+}
+
+/* France Color */
+#ff{
+    
+    background-color: rgb(24, 24, 163);
+}
+#fff{
+    
+    background-color: rgb(255, 255, 255);
+}
+#ffff{
+    background-color: rgb(214, 43, 43);
+}
+#ver2{
+    position: relative;
+    left: 50px;
+}
+
+/* American Flag */
+#flagA{
+    position: absolute;
+    margin: auto;
+    left: 30px;
+    height: 260px;
+    width: 450px;
+    background-color:#B22234 ;
+}
+#flagA::after{
+    position:absolute;
+    content: '';
+    top: 20px;
+    height: 20px;
+    width: 450px;
+    background-color: white;
+    box-shadow: 0 40px 0 0 white, 0 80px 0 0 white,
+     0 120px 0 0 white, 0 160px 0 0 white, 0 200px 0 0 white;
+}
+#flagA::before{
+    content: '★ ★ ★ ★ ★ ★ \00a0 \00a0 ★ ★ ★ ★ ★ \00a★ ★ ★ ★ ★ ★ \00a0 ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★\00a0 ★ ★ ★ ★\2007 ★ \00a0 ★ ★ ★ ★ ★ ★ \00a0 ★ ★ ★ ★ ★ ★ ★ ★ ★  ★';
+    font-size: 16px;
+    padding: 12px 0 0 14px;
+    letter-spacing: 4px;
+    line-height: 13px;
+    color: white;
+    position: absolute;
+    background-color: #3C3B6E;
+    width: 150px;
+    height: 128px;
+    z-index: 1;
+}
+#USA{
+    position: relative;
+    top: 265px;
+    text-align: center;
+
+}
+
+/* Japan */
+#japan{
+    position: relative;
+    background-color: white;
+    margin-left: 520px;
+    margin-bottom: 50px;
+    width: 455px;
+    height: 260px;
+
+}
+#Jcircle{
+    position: relative;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    top: 30px;
+    border-radius: 100%;
+    margin-left: 150px;
+}
+#jap{
+    position: relative;
+    top: 265px;
+    text-align: center;
+
+}
+
+/* Switherland */
+#swith{
+    position: relative;
+    background-color:rgb(211, 8, 8) ;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 455px;
+    height: 260px;
+}
+#cross{
+    position: relative;
+    background-color: white;
+    width: 50px;
+    height: 170px;
+    top: 40px;
+    left: 50px;
+    margin-left: 150px;
+}
+#cross1{
+    position: relative;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    left: 125px;
+    bottom: 70px;
+
+}
+#SWITHs{
+    position: relative;
+    top: 50px;
+    text-align: center;
+
+}
+#all{
+    display: flex;
+}

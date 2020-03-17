@@ -1,0 +1,81 @@
+#pro_image{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 20px;
+    float: left;
+}
+h1,h2{
+    padding-bottom: 10px;
+    text-align: center;
+}
+#discription{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 15px;
+    padding-left: 10px;
+    
+}
+#flot{
+    clear: left;
+}
+#HandE{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+#line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: white solid 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#sports > li{
+    display: table;
+
+}
+#list_sports, #cat_movies, #list_movies{
+    margin-left: 50px;
+}
+
+#exp{
+    margin-right: 30px;
+    border-right: solid 3px white;
+    padding-right: 90px;
+}
+#jobs{
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 40px;
+    padding-right: 30px;
+    border-right: solid 3px white;
+}
+#topSkill{
+    text-align: left;
+}
+#d1{
+    float: left;
+    margin-right: 40px;
+}
+#d2{
+    text-align: left;
+    float: right;
+}
+#d3{
+    float: left;
+    margin-right: 30px;
+}
+.pp{
+    padding-bottom: 5px;
+}
+#d4{
+    float: right;
+}
+
+
