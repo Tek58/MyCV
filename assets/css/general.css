@@ -59,3 +59,30 @@ nav > ul > li:hover{
     margin-top: 30px;
     font-size: 15px;
 }
+@media screen and (max-width: 700px ) {
+    nav > ul > li{
+        font-size: 0.625rem;
+        margin-top: 1.063rem;
+        padding: 0.037rem;   
+    }
+    #logo{
+        height: 2.5rem;
+        width: 4.375rem;
+    }
+    nav > ul > li > a{
+        margin: 0.065rem;
+        padding-bottom: 0.313rem;
+    }
+    #footer{
+        padding-top: 1rem;
+    }
+    .foo{
+        padding-right: 0.6rem;
+    }
+    .footer1{
+        padding-bottom: 10px;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+}
+  
