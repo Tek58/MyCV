@@ -18,7 +18,7 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 /* Flags of GABON,RUSSIA AND MAURITIUS*/
-#container, #container1, #container2, #container3, #containerA{
+.containers{
     display: flex;
     flex-direction: row;
     margin-left: 30px;
@@ -34,7 +34,7 @@ h2{
     border: 1px solid rgb(66, 64, 64);
     background: #eee;
 }
-#container > #f2 > .side4{
+#cont1 > #f2 > .side4{
     margin-right: 50px;
     width: 450px;
     height: 75px;
