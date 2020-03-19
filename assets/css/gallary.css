@@ -9,12 +9,20 @@ h3{
 .im{
     width: 30%;
     height: 400px;
-    margin: 1.57%;
+    margin: 1.5%;
     
 }
-#catagory1{
-    float: left;   
+#catagory{
+    display: flex;
+    flex-direction: column;
 }
-#footer{
-    clear: left;
+@media all and (max-width: 850px ){
+    h3{
+        font-size: 1rem;
+    }
+    .im{
+        width: 30%;
+        height: 13rem;
+        margin: 1%;
+    }
 }

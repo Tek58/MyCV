@@ -20,3 +20,8 @@ p{
     font-size: 25px;
     padding-bottom: 30px;
 }
+@media all and (max-width: 750px){
+    .title{
+        font-size: 28px;
+    }
+}

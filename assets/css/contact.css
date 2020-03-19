@@ -51,3 +51,34 @@ input[type=submit]{
     height: 50px;
     color: white;
 }
+@media all and (max-width: 800px){
+    #pro_image{
+        width: 10rem;
+        height: 10rem;
+        margin: 1rem;
+    }
+    h1,h2{
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    #discription{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+        padding-left: 1rem;   
+    }
+    #content{
+        display: grid;
+    }
+    #mapp{
+        margin: 0 1rem;
+    }
+    #formm{
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        
+    }
+}

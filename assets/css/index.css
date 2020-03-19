@@ -77,5 +77,55 @@ h1,h2{
 #d4{
     float: right;
 }
+@media all and (max-width: 1300px){
+    #pro_image{
+        width: 10rem;
+        height: 10rem;
+        margin: 1rem;
+    }
+    h1,h2{
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    #discription{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+        padding-left: 1rem;   
+    }
+    #HandE{
+        display: grid;
+        font-size: 1rem;
+        padding-left: 0rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 50px;
+    }
+    #line{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    #exp{
+        margin-right: 1rem;
+        border-top: solid 0 white;
+        border-right: 0;
+        padding-right: 5.625rem;
+        margin-bottom: 2rem;
+    }
+    #jobs{
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 2rem;
+        margin-bottom: 2rem;
+        border-right: solid 0 white;
+    }
+
+}
 
 
